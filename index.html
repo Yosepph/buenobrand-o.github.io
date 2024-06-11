@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/Css/Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+    <title>Bueno Brandão</title>
+</head>
+<body>
+
+<!--Barra de Navegação-->
+    <header>
+        <nav>
+            <h1>BUENO BRANDÃO</h1>
+            <button id="menu-toggle">&#9776;</button>
+            <ul id="menu">
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="PortalAluno.html">Portal Alunos</a></li>
+                <li><a href="PortalProfessor.html">Portal Professores</a></li>
+            </ul> <!--test-->
+        </nav>
+    </header>
+<!--Fim barra de Navegação-->
+
+<main>
+    <br><br><br><br><br>
+
+    <!---->
+    <div class="slider">
+        <div class="slides">
+            <!--Radios Buttons-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <!--Slide Images-->
+            <div class="slide first">
+                <img src="Assets/Imagens/bueno Imagem.jpeg" alt="Imagem 1">
+            </div>
+
+            <div class="slide">
+                <img src="Assets/Imagens/bueno Imagem2.jpeg" alt="Imagem 2">
+            </div>
+
+            <div class="slide">
+                <img src="Assets/Imagens/bueno Imagem3.jpeg" alt="Imagem 3">
+            </div>
+
+            <div class="slide">
+                <img src="Assets/Imagens/bueno Imagem4.jpeg" alt="Imagem 4">
+            </div>
+
+            <!--Navegação automatica-->
+            <div class="navegation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+        <div class="manual-navegation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+
+</main>
+
+<!--Footer-->
+<footer class="footer">
+
+	<div class="left">
+
+		<h4 class="title-footer">Bueno <span>Brandão</span></h4>
+
+		<p class="links">
+			
+			<a href="#" title="Home">FAQ</a>
+			<a href="#" title="Html">FOTOS E VÍDEOS</a>
+			<a href="#" title="Css">Principal</a>
+			<a href="#" title="jQuery">Alunos</a>
+
+		</p>
+
+		<div class="footer-icons">
+
+			<a href="#"><span class="mdi mdi-facebook"></span></a>
+			<a href="#"><span class="mdi mdi-whatsapp"></span></a>
+			<a href="#"><span class="mdi mdi-instagram"></span></a>
+			<a href="#"><span class="mdi mdi-map-marker-radius"></span></a>
+
+		</div>
+
+    <p class="Copyright">Copyright &copy; 2024 EE BUENO BRANDÃO.</p>
+
+
+	</div><!--Left-->
+
+	<div class="right">
+
+		<h4 class="title-footer">FAQ (Perguntas e respostas)</h4>
+
+		<form action="#" method="post">
+
+			<input type="text" name="nome" placeholder="Nome" required=""/>
+			<input type="email" name="email" placeholder="E-mail" required=""/>
+			<input type="text" name="assunto" placeholder="Assunto" required=""/>
+			<textarea name="messagem" placeholder="Messagem" required=""></textarea>
+			<button class="btn">Enviar</button>
+
+		</form>
+
+	</div><!--Right-->
+
+</footer>
+<!--Fim footer-->
+
+<script src="Assets/Scripts/Script.js"></script>
+</body>
+</html>
